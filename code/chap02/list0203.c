@@ -5,6 +5,6 @@ int main(void)
   puts("二つの整数を入力してください。");
   printf("整数a："); scanf("%d", &a);
   printf("整数b："); scanf("%d", &b);
-  printf("aをbで割ると%dあまり%dです。", a / b, a % b);
+  printf("aをbで割ると%dあまり%dです。\n", a / b, a % b);
   return 0;
 }
