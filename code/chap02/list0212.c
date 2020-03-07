@@ -18,7 +18,7 @@ int main(void)
   printf("[%6.1f]\n\n", 123.13);
 
   printf("[%f]\n", 123.13);
-  printf("[%.1ff]\n", 123.13);
+  printf("[%.1f]\n", 123.13);
   printf("[%4.1f]\n", 123.13);
 
   return 0;
