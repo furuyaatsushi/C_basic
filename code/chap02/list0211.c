@@ -13,6 +13,6 @@ int main(void)
   sum = a + b + c;
   ave = (double)sum / 3;
   printf("それらの合計は%5dです。\n", sum);
-  printf("それらの平均は%5.1dです。\n", ave);
+  printf("それらの平均は%5.1fです。\n", ave);
   return 0;
 }
