@@ -8,5 +8,5 @@ int main(void)
     puts("最下位の桁は5です。");
   else
     puts("最下位の桁は5ではありません。");
-    return 0;
+  return 0;
 }
