@@ -14,5 +14,6 @@ int main(void)
     printf("まだ？<Yes…0/No…9>：");
     scanf("%d", &retry);
   }while(retry == 0);
-  
+  printf("合計は%dで平均は%.2fです。\n", sum, (double)sum / cnt);
+  return 0;
 }
