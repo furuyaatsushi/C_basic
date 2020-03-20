@@ -6,7 +6,7 @@ int main(void)
   scanf("%d", &no);
   while(no-- > 0)
     putchar('*');
-  putchar("\n");
+  putchar('\n');
 
 return 0;
 }
