@@ -12,6 +12,6 @@ int main(void)
     sum += tmp;
   }
   printf("合計値：%d\n", sum);
-  printf("平均値：%d\n", (double)sum / num);
+  printf("平均値：%.2f\n", (double)sum / num);
   return 0;
 }
