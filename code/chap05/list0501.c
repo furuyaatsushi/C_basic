@@ -14,4 +14,7 @@ int main(void)
   printf("３番："); scanf("%d", &sanaka); sum += sanaka;
   printf("４番："); scanf("%d", &hiraki); sum += hiraki;
   printf("５番："); scanf("%d", &masaki); sum += masaki;
+  printf("合計点：%5d\n", sum);
+  printf("平均点：%5.1f\n", (double)sum / 5);
+  return 0;
 }
